@@ -19,13 +19,26 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
+              
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "layoutIt/css/bootstrap-grid.css",
+              "layoutIt/css/bootstrap-grid.min.css",
+              "layoutIt/css/bootstrap-reboot.css",
+              "layoutIt/css/bootstrap-reboot.min.css",
+              "layoutIt/css/bootstrap.css",
+              "layoutIt/css/bootstrap.min.css",
+              "layoutIt/css/style.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "layoutIt/js/bootstrap.min.js",
+              "layoutIt/js/jquery.min.js",
+              "layoutIt/js/popper.min.js",
+              "layoutIt/js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -51,6 +64,10 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "css":{
+              "sourceMap": true,
+              "extractCss": true
             }
           }
         },
